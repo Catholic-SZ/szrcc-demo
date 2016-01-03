@@ -56,10 +56,6 @@
     <nav class="navbar navbar-default">
       <div class="navbar-inner">
         <div class="container">
-          
-          <div class="navbar-search-header">
-          	<i class="icon-search" data-toggle="collapse" data-target="#navbar-search-collapse-1"></i>
-        	</div>
 
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
@@ -80,7 +76,7 @@
               <li class="active"><a href="index.html">首页</a></li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                   堂区介绍<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -92,7 +88,7 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   堂区动态<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -102,7 +98,7 @@
               </li>
               <li ><a href="#">普世教会</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   每日灵修<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -115,7 +111,7 @@
               </li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                   灵修小助手<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu" role="menu">
@@ -128,19 +124,13 @@
               <li ><a href="pray.html">彼此代祷</a></li>
 
             </ul>
-          </div>
-        </div>
 
-        <div class="container">
-          <div class="navbar-search" id="navbar-search-collapse-1">
-            <form class="navbar-form navbar-right" role="search">
-              <div class="input-group">
-                <input type="text" class="form-control search-input" placeholder="输入关键字" aria-describedby="basic-addon2">
-                <span class="input-group-addon" id="basic-addon2">
-                    <i class="icon-search"></i>
-                </span>
+            <form class="navbar-form navbar-right" role="search" method="get" id="searchform" action="">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="搜索" name="s" id="s" >
               </div>
             </form>
+
           </div>
         </div>
 
@@ -582,8 +572,6 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-hover-dropdown.min.js"></script>
-    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
   </body>
 </html>
